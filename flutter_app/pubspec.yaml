@@ -1,0 +1,50 @@
+name: tomato_farm
+description: 토마토 스마트팜 관리 앱 - SEED FARM
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # HTTP 통신
+  http: ^1.1.0
+  
+  # 이미지 선택
+  image_picker: ^1.0.4
+  
+  # 날짜 포맷
+  intl: ^0.18.1
+  
+  # 상태 관리 (선택적)
+  provider: ^6.1.1
+  
+  # 로컬 저장소 (선택적)
+  shared_preferences: ^2.2.2
+  
+  # 차트 (선택적 - 추후 추가)
+  # fl_chart: ^0.65.0
+  
+  # 아이콘
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  # 폰트 (선택적)
+  # fonts:
+  #   - family: Pretendard
+  #     fonts:
+  #       - asset: assets/fonts/Pretendard-Regular.otf
+  #       - asset: assets/fonts/Pretendard-Bold.otf
+  #         weight: 700
